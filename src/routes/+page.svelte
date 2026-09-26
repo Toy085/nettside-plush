@@ -8,13 +8,18 @@
   showSlides();
 
   function showSlides() {
-    slideIndex = slideIndex % images.length -1;
+    slideIndex = (slideIndex % images.length) - 1;
     currentImage = images.at(slideIndex);
     setTimeout(showSlides, 2500);
   }
 </script>
 
-<img src={currentImage} alt="plushies showcase" class="slideshow-image" />
+<img
+  src={currentImage}
+  alt="plushies showcase"
+  class="slideshow-image brightness-50 shadow-xl
+ transition-all duration-500 hover:brightness-75"
+/>
 
 <style>
   .slideshow-image {
