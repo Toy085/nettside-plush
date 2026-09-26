@@ -21,5 +21,6 @@
     width: 100vw;
     height: 75vh;
     object-fit: cover;
+    padding: 0;
   }
 </style>
