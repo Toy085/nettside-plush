@@ -1,8 +1,13 @@
 <nav>
+    <button class="menu-btn" aria-label="Open menu">
+    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+      <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+    </svg>
+  </button>
   <a href="/" aria-label="Homepage" class="logo-text text-2xl font-semibold"
     >Plush O' Plenty</a
   >
-  <a aria-label="shop" href="/">
+  <a aria-label="shop" href="/" class=""> <!--move the icon left-->
     <svg
       xmlns="http://www.w3.org/2000/svg"
       height="24px"
@@ -24,9 +29,15 @@
     display: flex;
     padding: 0 15px;
   }
+  .menu-btn {
+    display: none;
+  }
   @media screen and (max-width: 600px) {
     nav {
       justify-content: center;
+    }
+    .menu-btn {
+        display: flex;
     }
   }
 </style>
