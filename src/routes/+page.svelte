@@ -15,14 +15,17 @@
   }
 </script>
 
-<div class="slideshow-container">
+<div class="slideshow-container flex items-end">
   <img
     src={currentImage}
     alt="plushies showcase"
     class="slideshow-image brightness-50 shadow-xl
  transition-all duration-500 hover:brightness-75"
   />
-  <div class="slideshow-info"></div>
+  <div class="slideshow-info absolute flex-col p-3 m-16 rounded-md justify-self-start bg-taupe-50 w-auto h-auto">
+    <h2 class="font-medium text-lg text-left">Premium products<br/>at low prices</h2>
+    <button class="btn btn-standard">Buy Now</button>
+  </div>
 </div>
 
 <style>
