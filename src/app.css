@@ -57,6 +57,7 @@
 /*CSS*/
 :root {
   --primary-color: #9BFED3;
+  --toned-primary-color: color-mix(in oklab, var(--primary-color) 100%, var(--color-black) 30%);
   --secondary-color: #FFAA9C;
   --font-sans: "Ubuntu", system-ui, -apple-system, sans-serif;
 }
