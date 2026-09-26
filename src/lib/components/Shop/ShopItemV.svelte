@@ -1,0 +1,1 @@
+<div class="h-52 max-w-xs bg-amber-50"></div>

@@ -2,6 +2,7 @@
   import Image1 from "$lib/img/images.jpg";
   import Image2 from "$lib/img/images-pompom.jpg";
   import Image3 from "$lib/img/PE730957.avif";
+  import ShopItemV from "$lib/components/Shop/ShopItemV.svelte";
 
   const images = [Image1, Image2, Image3];
   let currentImage = $state(images.at(0));
@@ -26,6 +27,14 @@
     <h2 class="font-medium text-lg text-left">Premium products<br/>at low prices</h2>
     <button class="btn btn-standard">Buy Now</button>
   </div>
+</div>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-8">
+  <ShopItemV />
+  <ShopItemV />
+  <ShopItemV />
+  <ShopItemV />
+  <ShopItemV />
 </div>
 
 <style>
