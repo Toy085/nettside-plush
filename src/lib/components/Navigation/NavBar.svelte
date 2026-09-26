@@ -1,6 +1,6 @@
 <nav>
-    <button class="menu-btn" aria-label="Open menu">
-    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+    <button class="menu-btn rounded-1xl bg-(--primary-color)" aria-label="Open menu">
+    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px">
       <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
     </svg>
   </button>
@@ -35,6 +35,7 @@
   @media screen and (max-width: 600px) {
     nav {
       justify-content: center;
+      background-color: transparent;
     }
     .menu-btn {
         display: flex;
