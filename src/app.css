@@ -1,1 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import "tailwindcss";
+/*Fonts*/
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.libre-barcode-39-extended-regular {
+  font-family: "Libre Barcode 39 Extended", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+/*CSS*/
+:root {
+  --primary-color: #9BFED3;
+  --secondary-color: #FFAA9C;
+  --font-sans: "Ubuntu", system-ui, -apple-system, sans-serif;
+}
+
+* {
+    font-family: var(--font-sans);
+}
+
+body {
+  background-color: var(--primary-color);
+}
