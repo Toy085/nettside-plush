@@ -14,7 +14,7 @@
   }
 </script>
 
-<img src={currentImage} class="slideshow-image" />
+<img src={currentImage} alt="plushies showcase" class="slideshow-image" />
 
 <style>
   .slideshow-image {
