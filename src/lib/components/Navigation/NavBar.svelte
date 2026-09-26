@@ -1,15 +1,17 @@
 <nav>
-    <a href="/" aria-label="Homepage" class="text-2xl font-semibold align-middle">Plush O' Plenty</a>
+    <a href="/" aria-label="Homepage" class="logo-text text-2xl font-semibold align-middle">Plush O' Plenty</a>
 </nav>
 
 <style>
     nav {
         background-color: var(--toned-primary-color);
+        align-items: center;
         height: 50px;
+        display: flex;
     }
     @media screen and (max-width: 600px) {
         nav {
-            height: 5px;
+            justify-content: center;
         }
     }
 </style>
