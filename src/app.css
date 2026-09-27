@@ -91,3 +91,8 @@ body {
 .btn-outline:hover {
   @apply outline-(--toned-secondary-color);
 }
+
+/*Other*/
+.hline {
+  @apply h-1 my-2 border-0 w-[50vw] rounded mx-auto bg-(--secondary-color)
+}

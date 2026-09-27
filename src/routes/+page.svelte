@@ -36,6 +36,8 @@
   <ShopItemV />
 </div>
 
+<hr class="hline">
+
 <style>
   .slideshow-image {
     width: 100vw;
