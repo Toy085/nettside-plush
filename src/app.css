@@ -76,9 +76,17 @@ body {
 .btn {
   @apply font-bold py-2 px-4 rounded cursor-pointer;
 }
+
 .btn-standard {
   @apply bg-(--secondary-color) text-white;
 }
 .btn-standard:hover {
   @apply bg-(--toned-secondary-color);
+}
+
+.btn-outline {
+  @apply bg-white text-black outline-(--secondary-color) outline-4;
+}
+.btn-outline:hover {
+  @apply outline-(--toned-secondary-color);
 }

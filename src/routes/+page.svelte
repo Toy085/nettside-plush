@@ -34,7 +34,6 @@
   <ShopItemV />
   <ShopItemV />
   <ShopItemV />
-  <ShopItemV />
 </div>
 
 <style>
