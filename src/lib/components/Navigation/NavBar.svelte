@@ -1,13 +1,24 @@
-<nav>
-    <button class="menu-btn rounded-1xl bg-(--primary-color)" aria-label="Open menu">
-    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px">
-      <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+<nav class="fixed top-0 left-0 z-999">
+  <button
+    class="menu-btn rounded-1xl bg-(--primary-color)"
+    aria-label="Open menu"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      height="24px"
+      viewBox="0 -960 960 960"
+      width="24px"
+    >
+      <path
+        d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+      />
     </svg>
   </button>
   <a href="/" aria-label="Homepage" class="logo-text text-2xl font-semibold"
     >Plush O' Plenty</a
   >
-  <a aria-label="shop" href="/" class=""> <!--move the icon left-->
+  <a aria-label="shop" href="/" class="">
+    <!--move the icon right-->
     <svg
       xmlns="http://www.w3.org/2000/svg"
       height="24px"
@@ -38,7 +49,7 @@
       background-color: transparent;
     }
     .menu-btn {
-        display: flex;
+      display: flex;
     }
   }
 </style>
