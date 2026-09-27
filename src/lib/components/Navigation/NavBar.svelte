@@ -1,6 +1,6 @@
-<nav class="fixed top-0 left-0 z-999">
+<nav class="w-full h-50px fixed flex top-0 left-0 z-999 items-center">
   <button
-    class="menu-btn rounded-1xl bg-(--primary-color)"
+    class="menu-btn rounded bg-(--primary-color)"
     aria-label="Open menu"
   >
     <svg
@@ -34,10 +34,6 @@
 <style>
   nav {
     background-color: var(--toned-primary-color);
-    align-items: center;
-    height: 50px;
-    width: 100vw;
-    display: flex;
     padding: 0 15px;
   }
   .menu-btn {
