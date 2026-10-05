@@ -40,11 +40,11 @@
 
 <hr class="hline">
 
-<div class="grid grid-cols-2 grid-rows-2 p-5 gap-5">
-  <img class="order-1 h-50 w-50 object-cover" src={ClothImg}>
-  <h2 class="order-2 text-right text-6xl font-bold">High quality</h2>
-  <img class="order-4 h-50 w-50 object-cover" src={MoneyClothImg}>
-  <h2 class="order-3 text-6xl font-bold">Low prices</h2>
+<div class="grid grid-cols-2 grid-rows-2 p-5 gap-5 w-fit m-5">
+  <img class="order-1 h-75 w-75 object-cover" src={ClothImg}>
+  <h2 class="order-2 text-right text-6xl font-bold w-0">High quality</h2>
+  <img class="order-4 h-75 w-75 object-cover" src={MoneyClothImg}>
+  <h2 class="order-3 text-6xl font-bold w-0">Low prices</h2>
 </div>
 
 <style>
