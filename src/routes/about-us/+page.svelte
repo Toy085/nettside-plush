@@ -90,7 +90,7 @@
     <label for="email">Email</label>
     <input type="email" id="email" name="email" class="w-full rounded-md p-2 bg-amber-100" required />
     <label for="message">Message</label>
-    <textarea id="message" name="message" class="w-full rounded-md p-2 bg-amber-100" required></textarea>
+    <textarea id="message" name="message" class="w-full rounded-md p-2 bg-amber-100 h-40" required></textarea>
     <button type="submit" class="btn btn-outline">Submit</button>
 </form>
 
