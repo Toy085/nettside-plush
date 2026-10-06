@@ -75,7 +75,7 @@
       <img
         src={GreatLeader}
         alt="Our Great Leader and divine Ruler, her majesty Kasane Teto"
-        class="rounded-xl h-50 w-50 object-cover float-left"
+        class="rounded-xl h-50 w-50 object-cover"
       />
     </div>
   </section>
@@ -83,7 +83,16 @@
 
 <hr class="hline">
 
-<div class="w-50 h-50 bg-amber-100 rounded-2xl m-auto mb-5"></div>
+<form class="grid grid-flow-row w-[50vw] h-auto bg-(--secondary-color) rounded-2xl m-auto mb-5 gap-2 p-5">
+    <h3 class="text-4xl font-semibold text-center">Contact Us</h3>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" class="w-full rounded-md p-2 bg-amber-100" required />
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" class="w-full rounded-md p-2 bg-amber-100" required />
+    <label for="message">Message</label>
+    <textarea id="message" name="message" class="w-full rounded-md p-2 bg-amber-100" required></textarea>
+    <button type="submit" class="btn btn-outline">Submit</button>
+</form>
 
 <style>
   @import "tailwindcss";
