@@ -27,7 +27,7 @@
   />
   <div class="slideshow-info absolute flex-col p-3 m-16 rounded-md justify-self-start bg-taupe-50 w-auto h-auto">
     <h2 class="font-medium text-lg text-left">Premium products<br/>at low prices</h2>
-    <button class="btn btn-standard">Buy Now</button>
+    <a href="/shop"><button class="btn btn-standard">Buy Now</button></a>
   </div>
 </div>
 
