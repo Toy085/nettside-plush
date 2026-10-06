@@ -50,8 +50,8 @@
   </section>
   <section>
     <h2>Ledelsen</h2>
-    <div class="grid grid-cols-2 gap-5">
-      <p>
+    <div class="grid grid-cols-[1fr_auto] gap-0 m-auto">
+      <p class="w-auto">
         Phasellus at ultricies velit, ac venenatis felis. Praesent eget
         facilisis erat. Phasellus in mi a ex congue blandit et ut libero. Proin
         consectetur porta rutrum. In ac erat a est elementum egestas id nec
@@ -75,7 +75,7 @@
       <img
         src={GreatLeader}
         alt="Our Great Leader and divine Ruler, her majesty Kasane Teto"
-        class="rounded-xl h-50 w-50 object-cover"
+        class="rounded-xl h-50 w-50 object-cover justify-self-end m-0"
       />
     </div>
   </section>
@@ -100,6 +100,6 @@
     @apply text-2xl font-bold;
   }
   p {
-    @apply w-[75vw] text-lg;
+    @apply w-[75vw] text-lg m-auto;
   }
 </style>
