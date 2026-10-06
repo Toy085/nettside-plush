@@ -47,6 +47,9 @@
   <h2 class="order-3 text-6xl font-bold w-0">Low prices</h2>
 </div>
 
+<hr class="hline">
+
+<h2 class="text-5xl font-bold text-center">New</h2>
 <style>
   .slideshow-image {
     width: 100vw;

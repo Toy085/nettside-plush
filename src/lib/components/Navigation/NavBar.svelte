@@ -1,4 +1,4 @@
-<nav class="w-full h-13 fixed flex top-0 left-0 z-999 items-center">
+<nav class="top-0 sticky w-full h-13 flex left-0 z-999 items-center">
   <button
     class="menu-btn rounded bg-(--primary-color)"
     aria-label="Open menu"
