@@ -50,8 +50,8 @@
   </section>
   <section>
     <h2>Ledelsen</h2>
-    <div class="grid grid-cols-[1fr_auto] gap-0 m-auto">
-      <p class="w-auto">
+    <div class="grid grid-cols-[1fr_auto] gap-0 m-auto w-[75vw]">
+      <h3 class="w-[50vw] text-lg m-auto">
         Phasellus at ultricies velit, ac venenatis felis. Praesent eget
         facilisis erat. Phasellus in mi a ex congue blandit et ut libero. Proin
         consectetur porta rutrum. In ac erat a est elementum egestas id nec
@@ -71,11 +71,11 @@
         Vestibulum dapibus, ex vel lacinia semper, tortor libero congue nunc,
         quis varius nisl odio non turpis. In hac habitasse platea dictumst.
         Mauris dui mi, hendrerit id ex efficitur, venenatis rhoncus quam.
-      </p>
+      </h3>
       <img
         src={GreatLeader}
         alt="Our Great Leader and divine Ruler, her majesty Kasane Teto"
-        class="rounded-xl h-50 w-50 object-cover justify-self-end m-0"
+        class="rounded-xl h-auto max-w-full aspect-square object-cover justify-self-end m-0"
       />
     </div>
   </section>
