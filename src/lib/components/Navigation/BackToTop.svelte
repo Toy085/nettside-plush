@@ -1,9 +1,11 @@
 <script lang="ts">
+  let scrollY = $state(0);
   function scrollToTop() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 </script>
 
+{#if scrollY > 150}
 <button type="button" aria-label="scoll to top" onclick={scrollToTop}
   ><div class="cursor-pointer bg-(--secondary-color) rounded-full p-2 fixed bottom-10 left-10">
     <svg
@@ -18,3 +20,5 @@
     >
   </div>
 </button>
+{/if}
+<svelte:window bind:scrollY={scrollY} />
