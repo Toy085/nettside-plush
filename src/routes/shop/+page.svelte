@@ -12,12 +12,12 @@
 <hr class="hline">
 
 <div class="grid">
-<div class="">
-    <a></a>
-</div>
-<div class="grid grid-cols-1 justify-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-8">
-{#each Array(80)}
-    <ShopItemV />
-{/each}
-</div>
+    <div class="">
+        <a></a>
+    </div>
+    <div class="grid grid-cols-1 justify-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-8">
+        {#each Array(80)}
+            <ShopItemV />
+        {/each}
+    </div>
 </div>

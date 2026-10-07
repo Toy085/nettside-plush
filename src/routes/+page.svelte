@@ -32,10 +32,9 @@
 </div>
 
 <div class="grid grid-cols-1 justify-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-8">
-  <ShopItemV />
-  <ShopItemV />
-  <ShopItemV />
-  <ShopItemV />
+  {#each Array(4)}
+    <ShopItemV showButton={false}/>
+  {/each}
 </div>
 
 <hr class="hline">
