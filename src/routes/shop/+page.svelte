@@ -3,7 +3,7 @@
     let itemGroup = ["Plush", "Toys", "Candy", "Accessories", "Other"];
 </script>
 <h1 class="text-5xl font-bold text-center">Lorem</h1>
-<p>
+<p class="w-[50vw] text-center m-auto">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat erat et
   vestibulum sodales. Donec euismod mi eu rhoncus semper. Etiam vestibulum justo
   eget quam rhoncus sagittis in eget tellus. Morbi quis malesuada metus. Etiam
