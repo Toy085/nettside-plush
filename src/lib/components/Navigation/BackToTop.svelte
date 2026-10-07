@@ -18,6 +18,3 @@
     >
   </div>
 </button>
-
-<style>
-</style>
