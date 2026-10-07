@@ -3,6 +3,7 @@
   import Image2 from "$lib/img/images-pompom.jpg";
   import Image3 from "$lib/img/PE730957.avif";
   import ShopItemV from "$lib/components/Shop/ShopItemV.svelte";
+  import ShopItemH from "$lib/components/Shop/ShopItemH.svelte";
   import ClothImg from "$lib/img/images-t.jpg"
   import MoneyClothImg from "$lib/img/images-money.jpg"
 
@@ -53,6 +54,11 @@
 <hr class="hline">
 
 <h2 class="text-5xl font-bold text-center">New</h2>
+<div class="flex flex-col justify-center items-center gap-5 p-5">
+  {#each Array(4)}
+    <ShopItemH showButton={true}/>
+  {/each}
+</div>
 <style>
   .slideshow-image {
     width: 100vw;
