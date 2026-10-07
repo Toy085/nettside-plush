@@ -37,6 +37,10 @@
   {/each}
 </div>
 
+<div class="flex justify-center items-center">
+  <a href="/shop"><button class="btn btn-standard">Shop Now</button></a>
+</div>
+
 <hr class="hline">
 
 <div class="grid grid-cols-2 grid-rows-2 p-5 gap-5 w-fit m-5">
