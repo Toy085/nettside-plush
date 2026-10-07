@@ -20,7 +20,7 @@
         {/each}
     </div>
     <div class="grid grid-cols-1 justify-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-5">
-        {#each Array(20)}
+        {#each Array(12)}
             <ShopItemV />
         {/each}
     </div>
