@@ -97,7 +97,7 @@
 <style>
   @import "tailwindcss";
   h2 {
-    @apply text-2xl font-bold;
+    @apply text-2xl font-bold ml-[5vw];
   }
   p {
     @apply w-[75vw] text-lg m-auto;
