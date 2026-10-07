@@ -1,5 +1,7 @@
 <script lang="ts">
     import ShopItemV from "$lib/components/Shop/ShopItemV.svelte";
+    import ScrollToTop from "$lib/components/Navigation/BackToTop.svelte";
+
     let itemGroup = ["Plush", "Toys", "Candy", "Accessories", "Other"];
 </script>
 <h1 class="text-5xl font-bold text-center">Lorem</h1>
@@ -25,3 +27,5 @@
         {/each}
     </div>
 </div>
+
+<ScrollToTop />
