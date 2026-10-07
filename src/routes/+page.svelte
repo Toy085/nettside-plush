@@ -55,7 +55,7 @@
 
 <h2 class="text-5xl font-bold text-center">New</h2>
 <div class="flex flex-col justify-center items-center gap-5 p-5">
-  {#each Array(4)}
+  {#each Array(2)}
     <ShopItemH showButton={true}/>
   {/each}
 </div>
