@@ -7,6 +7,7 @@
 
     let products = $derived(data.products.filter((product) => product.category_name === selectedCategory));
 </script>
+
 <h1 class="text-5xl font-bold text-center">Lorem</h1>
 <p class="w-[50vw] text-center m-auto">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat erat et
@@ -21,7 +22,7 @@
     <div class="flex flex-col h-auto w-50 p-5 gap-1">
         <h2 class="text-lg font-bold text-center">Shop by category</h2>
         {#each data.categories as item}
-            <a href="/shop/{item.url}">{item.name}</a>
+            <button onclick={() => selectedCategory = item.name}>{item.name}</button>
         {/each}
     </div>
     <div class="grid grid-cols-1 justify-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-5">
