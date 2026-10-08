@@ -2,6 +2,14 @@
   import { page } from '$app/state';
 </script>
 
+<svelte:head>
+  {#if page.status === 404}
+    <title>404 page not found</title>
+  {:else}
+    <title>{page.error?.message ?? 'An unexpected error occurred.'}</title>
+  {/if}
+</svelte:head>
+
 <div class="flex flex-col items-center justify-center h-[80vh] text-center p-5">
   <h1 class="text-8xl font-bold">{page.status}</h1>
   

@@ -10,6 +10,7 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<title>Plushies</title>
 </svelte:head>
 
 <NavBar />

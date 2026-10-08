@@ -2,6 +2,10 @@
   import GreatLeader from "$lib/img/gl.png";
 </script>
 
+<svelte:head>
+	<title>About us</title>
+</svelte:head>
+
 <h1 class="text-6xl font-bold p-5 pb-0 text-center">About us</h1>
 
 <article
