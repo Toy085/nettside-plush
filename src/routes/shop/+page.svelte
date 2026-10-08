@@ -29,6 +29,9 @@
         {#each products as product}
             <ShopItemV name={product.name} description={product.description}/>
         {/each}
+        {#each Array(16)}
+            <ShopItemV />
+        {/each}
     </div>
 </div>
 
