@@ -1,5 +1,8 @@
 <nav class="top-0 sticky w-full h-13 flex left-0 z-999 items-center">
-  <button class="menu-btn rounded bg-(--primary-color)" aria-label="Open menu">
+  <button
+    class="mr-auto menu-btn rounded bg-(--primary-color)"
+    aria-label="Open menu"
+  >
     <svg
       xmlns="http://www.w3.org/2000/svg"
       height="24px"
@@ -14,7 +17,7 @@
   <a href="/" aria-label="Homepage" class="logo-text text-2xl font-semibold"
     >Plush O' Plenty</a
   >
-  <div class="ml-auto flex gap-2 items-center">
+  <div class="ml-auto flex gap-2 items-center right-nav">
     <a href="/shop">Shop</a>
     <a aria-label="shop" href="/cart">
       <svg
@@ -45,6 +48,9 @@
     }
     .menu-btn {
       display: flex;
+    }
+    .right-nav {
+      display: none;
     }
   }
 </style>
