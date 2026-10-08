@@ -22,7 +22,7 @@
     <div class="flex flex-col h-auto w-50 p-5 gap-1">
         <h2 class="text-lg font-bold text-center">Shop by category</h2>
         {#each data.categories as item}
-            <button onclick={() => selectedCategory = item.name}>{item.name}</button>
+            <button class="text-left decoration-2 hover:underline hover:decoration-gray-600 active:decoration-amber-600 {selectedCategory == item.name ? "underline decoration-gray-800" : ""}" onclick={() => selectedCategory = item.name}>{item.name}</button>
         {/each}
     </div>
     <div class="grid grid-cols-1 justify-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-5">
