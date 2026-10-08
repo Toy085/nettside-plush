@@ -8,7 +8,11 @@
     let products = $derived(data.products.filter((product) => product.category_name === selectedCategory));
 </script>
 
-<h1 class="text-5xl font-bold text-center">Lorem</h1>
+<svelte:head>
+    <title>Products under {selectedCategory}</title>
+</svelte:head>
+
+<h1 class="text-5xl font-bold text-center">{selectedCategory}</h1>
 <p class="w-[50vw] text-center m-auto">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat erat et
   vestibulum sodales. Donec euismod mi eu rhoncus semper. Etiam vestibulum justo
