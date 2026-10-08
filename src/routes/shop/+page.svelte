@@ -3,8 +3,9 @@
     import ScrollToTop from "$lib/components/Navigation/BackToTop.svelte";
     import type { PageData } from './$types';
     let { data }: { data: PageData } = $props();
+    let selectedCategory = $state(data.categories[0].name);
 
-    let itemGroup = ["Plush", "Toys", "Candy", "Accessories", "Other"];
+    let products = $derived(data.products.filter((product) => product.category_name === selectedCategory));
 </script>
 <h1 class="text-5xl font-bold text-center">Lorem</h1>
 <p class="w-[50vw] text-center m-auto">
@@ -24,7 +25,7 @@
         {/each}
     </div>
     <div class="grid grid-cols-1 justify-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-5">
-        {#each data.products as product}
+        {#each products as product}
             <ShopItemV name={product.name} description={product.description}/>
         {/each}
     </div>
