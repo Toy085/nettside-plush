@@ -8,7 +8,7 @@
 
 {#if scrollY > scrollAmount}
 <button type="button" aria-label="scoll to top" onclick={scrollToTop}
-  ><div class="cursor-pointer bg-(--secondary-color) rounded-full p-2 fixed bottom-10 left-10">
+  ><div class="animate-bounce cursor-pointer bg-(--secondary-color) rounded-full p-2 fixed bottom-10 left-10">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       height="24px"
@@ -22,4 +22,5 @@
   </div>
 </button>
 {/if}
+
 <svelte:window bind:scrollY={scrollY} />
