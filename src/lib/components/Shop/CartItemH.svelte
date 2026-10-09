@@ -12,5 +12,6 @@
   <div class="flex flex-col">
     <h3 class="font-bold text-xl text-left">{name}</h3>
     <p class="text-xs">{description}</p>
+    <button class="btn btn-standard" onclick={window.alert("Error: 500 Internal Server Error")}>Remove</button>
   </div>
 </div>
