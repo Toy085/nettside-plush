@@ -1,7 +1,11 @@
-<nav class="top-0 sticky w-full h-13 flex left-0 z-999 items-center">
+<script lang="ts">
+  let { onclick } = $props();
+</script>
+<nav class="top-0 sticky w-full h-13 flex left-0 z-1 items-center">
   <button
     class="mr-auto menu-btn rounded bg-(--primary-color)"
-    aria-label="Open menu"
+    aria-label="Open menu" 
+    {onclick}
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"

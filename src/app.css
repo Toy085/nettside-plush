@@ -67,6 +67,9 @@
 * {
     font-family: var(--font-sans);
 }
+#main {
+  transition: margin-left .5s;
+}
 
 body {
   background-color: var(--primary-color);
