@@ -87,7 +87,7 @@
 
 <hr class="hline">
 
-<form class="grid grid-flow-row w-[50vw] h-auto bg-(--secondary-color) rounded-2xl m-auto mb-5 gap-2 p-5">
+<form class="grid grid-flow-row w-[50vw] h-auto bg-(--secondary-color) rounded-2xl m-auto mb-5 gap-2 p-5 mt-5">
     <h3 class="text-4xl font-semibold text-center">Contact Us</h3>
     <label for="name">Name</label>
     <input type="text" id="name" name="name" class="w-full rounded-md p-2 bg-amber-100" required />
@@ -95,7 +95,7 @@
     <input type="email" id="email" name="email" class="w-full rounded-md p-2 bg-amber-100" required />
     <label for="message">Message</label>
     <textarea id="message" name="message" class="w-full rounded-md p-2 bg-amber-100 h-40" required></textarea>
-    <button type="submit" class="btn btn-outline w-25">Submit</button>
+    <button type="submit" class="btn btn-outline w-25 mt-3">Submit</button>
 </form>
 
 <style>
