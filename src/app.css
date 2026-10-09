@@ -62,6 +62,7 @@
   --toned-secondary-color: color-mix(in oklab, var(--secondary-color) 100%, var(--color-black) 30%);
   --light-secondary-color: color-mix(in oklab, var(--secondary-color) 100%, var(--color-white) 65%);
   --font-sans: "Ubuntu", system-ui, -apple-system, sans-serif;
+  --font-barcode: "Libre Barcode 39 Extended", var(--font-sans), system-ui, -apple-system, sans-serif;
 }
 
 * {
