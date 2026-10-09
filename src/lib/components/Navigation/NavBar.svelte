@@ -22,8 +22,8 @@
     >Plush O' Plenty</a
   >
   <div class="ml-auto flex gap-3 items-center right-nav">
-    <a class="text-lg hover:text-xl" href="/shop">Shop</a>
-    <a class="text-lg hover:text-xl" href="/about-us">About us</a>
+    <a class="text-lg hover:text-xl transition-transform" href="/shop">Shop</a>
+    <a class="text-lg hover:text-xl transition-transform" href="/about-us">About us</a>
     <a aria-label="shop" href="/cart">
       <svg class="hover:scale-110 transition-transform"
         xmlns="http://www.w3.org/2000/svg"

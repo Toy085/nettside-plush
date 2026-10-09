@@ -7,10 +7,10 @@
 </script>
 
 <div
-  class="flex flex-row h-auto p-5 rounded-2xl w-75 bg-(--light-secondary-color) gap-5">
-  <img src={Image} alt="Pic" class="rounded-xl h-auto w-7 aspect-square object-cover" />
+  class="flex flex-row h-auto p-2 rounded-2xl w-100 bg-(--light-secondary-color) gap-2">
+  <img src={Image} alt="Pic" class="rounded-xl h-25 w-25 aspect-square object-cover" />
   <div class="flex flex-col">
-    <h3 class="font-normal text-xl text-left">{name}</h3>
+    <h3 class="font-bold text-xl text-left">{name}</h3>
     <p class="text-xs">{description}</p>
   </div>
 </div>
