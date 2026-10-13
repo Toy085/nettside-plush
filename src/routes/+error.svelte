@@ -28,4 +28,4 @@
     Go back home
   </a>
 </div>
-<div class="h-[74px]"></div>
+<div class="h-[74px]"></div> <!-- Increase spacing so that footer is on the bottm-->
