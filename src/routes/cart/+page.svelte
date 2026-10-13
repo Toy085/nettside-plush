@@ -1,5 +1,7 @@
 <script lang="ts">
   import CartItemH from "$lib/components/Shop/CartItemH.svelte";
+  let shippingTotal = 67**2
+  let subtotal = 50+50
 </script>
 
 <h1 class="text-6xl text-center p-2">Your cart</h1>
@@ -11,9 +13,13 @@
     {/each}
   </div>
 
-  <div>
+  <div class="flex flex-col p-2 h-fit border-black border-2">
     <h2 class="text-2xl">Order Summary</h2>
-    <p>Subtotal: {50+50}$</p>
+    <hr class="bg-gray-600 border-0 h-px">
+    <p>Subtotal: {subtotal}$</p>
+    <p>Shipping: {shippingTotal}$</p>
+    <hr>
+    <p>Total: {subtotal + shippingTotal}$</p>
   </div>
 </div>
 
