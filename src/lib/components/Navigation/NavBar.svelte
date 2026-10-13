@@ -1,7 +1,7 @@
 <script lang="ts">
   let { onclick } = $props();
 </script>
-<nav class="top-0 sticky w-full h-13 flex left-0 z-1 items-center">
+<nav class="top-0 sticky w-full h-13 flex left-0 z-1 items-center bg-mist-200/65 sm:bg-(--toned-primary-color)">
   <button
     class="mr-auto menu-btn rounded bg-(--primary-color)"
     aria-label="Open menu" 
@@ -40,7 +40,6 @@
 
 <style>
   nav {
-    background-color: var(--toned-primary-color);
     padding: 0 15px;
   }
   .menu-btn {
@@ -49,7 +48,6 @@
   @media screen and (max-width: 600px) {
     nav {
       justify-content: center;
-      background-color: transparent;
     }
     .menu-btn {
       display: flex;
