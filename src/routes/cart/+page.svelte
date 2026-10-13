@@ -6,8 +6,8 @@
 
 <h1 class="text-6xl text-center p-2">Your cart</h1>
 
-<div class="flex flex-col sm:flex-row justify-between m-10">
-  <div class="p-5 flex flex-col gap-5 order-2 sm:order-1">
+<div class="flex flex-col sm:flex-row justify-between m-1 sm:m-10">
+  <div class="p-3 sm:p-5 flex flex-col gap-2 sm:gap-5 order-2 sm:order-1">
     {#each Array(6)}
       <CartItemH />
     {/each}
