@@ -12,6 +12,9 @@
   <div class="flex flex-col">
     <h3 class="font-bold text-xl text-left">{name}</h3>
     <p class="text-xs">{description}</p>
-    <button class="btn btn-standard" onclick={window.alert("Error: 500 Internal Server Error")}>Remove</button>
+    <div>
+      <button class="btn btn-standard" onclick={window.alert("Error: 500 Internal Server Error")}>Remove</button>
+      <input type="number" min="1" max="67" value="1" class="w-14 h-6 rounded p-1 text-center border border-black focus:outline-none focus:ring-2 focus:ring-(--toned-secondary-color)" />
+    </div>
   </div>
 </div>
