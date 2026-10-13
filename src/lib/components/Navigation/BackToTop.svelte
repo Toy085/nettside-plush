@@ -8,7 +8,7 @@
 
 {#if scrollY > scrollAmount}
 <button type="button" aria-label="scoll to top" onclick={scrollToTop}
-  ><div class="animate-bounce cursor-pointer bg-(--secondary-color) rounded-full p-2 fixed bottom-20 left-15">
+  ><div class="animate-bounce cursor-pointer bg-(--secondary-color) rounded-full p-2 fixed bottom-10 sm:bottom-20 left-5 sm:left-15">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       height="24px"

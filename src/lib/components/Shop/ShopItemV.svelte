@@ -8,7 +8,7 @@
 </script>
 
 <div
-  class="gird-cols-1 h-auto p-5 rounded-2xl max-w-xs min-w-45 bg-(--light-secondary-color) {!showButton ? "hover:shadow-xl transition-all duration-500" : ""}"
+  class="gird-cols-1 h-auto p-5 sm:p-2 rounded-2xl max-w-xs min-w-40 bg-(--light-secondary-color) {!showButton ? "hover:shadow-xl transition-all duration-500" : ""}"
 >
   <img src={Image} alt="Pic" class="rounded-xl" />
   <h3 class="font-normal text-2xl text-left truncate">{name}</h3>
