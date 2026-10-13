@@ -20,5 +20,6 @@
   >
   <a class="block text-white pt-5 pl-3" href="/">Home</a>
   <a class="block text-white pl-3" href="/shop">Shop</a>
+  <a class="block text-white pl-3" href="/cart">Cart</a>
   <a class="block text-white pl-3" href="/about-us">About us</a>
 </div>
