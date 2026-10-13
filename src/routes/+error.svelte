@@ -28,3 +28,4 @@
     Go back home
   </a>
 </div>
+<div class="h-[74px]"></div>
