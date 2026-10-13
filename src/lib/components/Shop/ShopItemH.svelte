@@ -14,7 +14,7 @@
   <div class="flex flex-col">
     <h3 class="font-normal text-3xl text-left truncate">{name}</h3>
     <p>{description}</p>
-    {#if showButton}<button class="btn btn-outline mt-auto self-start"
+    {#if showButton}<button class="btn btn-outline mt-auto self-start" onclick={window.alert("Error: 500 Internal Server Error")}
         >Buy</button
       >{/if}
   </div>

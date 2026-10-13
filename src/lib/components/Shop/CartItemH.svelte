@@ -7,14 +7,14 @@
 </script>
 
 <div
-  class="flex flex-row h-auto p-2 rounded-2xl w-100 bg-(--light-secondary-color) gap-2">
+  class="flex flex-row items-center h-auto p-3 rounded-2xl  bg-(--light-secondary-color)/50 gap-2">
   <img src={Image} alt="Pic" class="rounded-xl h-25 w-25 aspect-square object-cover" />
   <div class="flex flex-col">
     <h3 class="font-bold text-xl text-left">{name}</h3>
-    <p class="text-xs">{description}</p>
+    <p class="text-base">{description}</p>
     <div>
       <button class="btn btn-standard" onclick={window.alert("Error: 500 Internal Server Error")}>Remove</button>
-      <input type="number" min="1" max="67" value="1" class="w-14 h-6 rounded p-1 text-center border border-black focus:outline-none focus:ring-2 focus:ring-(--toned-secondary-color)" />
+      <input type="number" min="1" max="67" value="1" class="w-14 h-8 rounded p-1 text-center border border-black focus:outline-none focus:ring-2 focus:ring-(--toned-secondary-color)" />
     </div>
   </div>
 </div>

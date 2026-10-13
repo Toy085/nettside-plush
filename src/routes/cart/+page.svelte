@@ -16,10 +16,10 @@
   <div class="flex flex-col p-2 mr-10 h-fit border-black border-2">
     <h2 class="text-2xl">Order Summary</h2>
     <hr class="bg-gray-600 border-0 h-px">
-    <p>Subtotal: {subtotal}$</p>
-    <p>Shipping: {shippingTotal}$</p>
+    <p>Subtotal: ${subtotal}</p>
+    <p>Shipping: ${shippingTotal}</p>
     <hr>
-    <p class="font-semibold">Total: {subtotal + shippingTotal}$</p>
+    <p class="font-semibold">Total: ${subtotal + shippingTotal}</p>
     <a class="btn btn-standard text-center w-fit" href="/checkout">Checkout</a>
   </div>
 </div>
