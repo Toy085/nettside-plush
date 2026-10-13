@@ -13,6 +13,7 @@
 
   <div>
     <h2 class="text-2xl">Order Summary</h2>
+    <p>Subtotal: {50+50}$</p>
   </div>
 </div>
 

@@ -1,5 +1,5 @@
 import process from 'node:process';
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-auto';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 import tailwindcss from '@tailwindcss/vite';
@@ -10,13 +10,7 @@ export default defineConfig({
 	plugins: [
 		tailwindcss(),
 		sveltekit({
-			adapter: adapter({
-				pages: 'build',
-				assets: 'build',
-				fallback: '404.html',
-				precompress: false,
-				strict: true
-			}),
+			adapter: adapter(),
 			paths: {
 				base: dev ? "" : "/nettside-plush"
 			},
