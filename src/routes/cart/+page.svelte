@@ -9,12 +9,3 @@
     <CartItemH />
   {/each}
 </div>
-
-<style>
-    h1 {
-        font-family: var(--font-barcode);
-    }
-    h1:hover {
-        font-family: var(--font-sans);
-    }
-</style>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&family=Libre+Barcode+39+Extended&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import "tailwindcss";
 /*Fonts*/
 .ubuntu-light {
@@ -54,6 +54,12 @@
   font-weight: 400;
   font-style: normal;
 }
+.libre-barcode-39-text-regular {
+  font-family: "Libre Barcode 39 Text", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /*CSS*/
 :root {
   --primary-color: #9BFED3;
@@ -62,7 +68,7 @@
   --toned-secondary-color: color-mix(in oklab, var(--secondary-color) 100%, var(--color-black) 30%);
   --light-secondary-color: color-mix(in oklab, var(--secondary-color) 100%, var(--color-white) 65%);
   --font-sans: "Ubuntu", system-ui, -apple-system, sans-serif;
-  --font-barcode: "Libre Barcode 39 Extended", var(--font-sans), system-ui, -apple-system, sans-serif;
+  --font-barcode: "Libre Barcode 39 Text", "Libre Barcode 39 Extended", var(--font-sans), system-ui, -apple-system, sans-serif;
 }
 
 * {
